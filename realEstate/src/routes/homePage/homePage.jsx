@@ -1,6 +1,6 @@
-import SearchBar from "../components/searchBar/SearchBar";
+import SearchBar from "../../components/searchBar/SearchBar";
 import "./homepage.scss"
-import "../components/searchBar/SearchBar"
+//import "../../components/searchBar/SearchBar"
 
 function HomePage(){
     return(
@@ -27,7 +27,7 @@ function HomePage(){
                 </div>             
             </div>
             <div className="imgContainer">
-                <img src="bg.jpeg" alt="bg" />
+                <img src="background.jpeg" alt="bg" />
             </div>
         </div>
     )

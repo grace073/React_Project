@@ -12,20 +12,20 @@
 
     //write it in order->large-medium-small:
     @include lg{
-        background-color: rgb(255, 254, 213);
+        background-color: rgb(255, 255, 255);
         max-width: 1218px;
     }
     @include md{
-        background-color: rgb(208, 254, 203);
+        background-color: rgb(255, 255, 255);
         max-width: 768px;
     }
     @include sm{
-        background-color: rgb(251, 217, 217);
+        background-color: rgb(255, 255, 255);
         max-width: 640px;
     }
 
     .content{
-        background-color: darkcyan;
+        //background-color: rgb(194, 215, 215);
         //height: calc(100vh-100px);
         flex:1;
     }
